@@ -1,0 +1,61 @@
+# ---------------------------------------------
+# .NET / ASP.NET Core .gitignore
+# ---------------------------------------------
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Oo]ut/
+out-tsc/
+build/
+publish/
+*.dll
+*.pdb
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*_i.c
+*_p.c
+
+# Rider
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# ---------------------------------------------
+# Secrets & environment (NE PAS committer)
+# Contiennent la chaîne de connexion SQL et la clé JWT.
+# Garder uniquement le modèle appsettings.example.json.
+# ---------------------------------------------
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+
+# User-specific files
+*.csproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
