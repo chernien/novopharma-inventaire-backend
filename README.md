@@ -247,16 +247,6 @@ La configuration se trouve dans `tunisair-back/appsettings.json` :
 
 ---
 
-## 🔗 Écosystème du projet
-
-| Composant | Rôle | Stack |
-|-----------|------|-------|
-| **Novo Inventaire Mobile** | Saisie terrain (scan, comptage) | Ionic + Angular + Capacitor |
-| **Novo Inventaire Dashboard** | Administration & reporting | Angular 19 |
-| **Novo Inventaire API** *(ce dépôt)* | Logique métier & données | ASP.NET Core 8 |
-
----
-
 
 
 <div align="center">
