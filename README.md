@@ -214,12 +214,6 @@ dotnet restore
 dotnet run --project tunisair-back
 ```
 
-| URL | Description |
-|-----|-------------|
-| `https://localhost:7099` | API (HTTPS) |
-| `http://localhost:5194` | API (HTTP) |
-| `https://localhost:7099/swagger` | Documentation Swagger (dev) |
-
 ---
 
 ## ⚙️ Configuration
@@ -263,27 +257,7 @@ La configuration se trouve dans `tunisair-back/appsettings.json` :
 
 ---
 
-## 🔮 Améliorations futures
 
-- [ ] Appliquer `[Authorize(Roles = …)]` sur les endpoints sensibles (la plupart sont ouverts actuellement).
-- [ ] Restreindre la politique **CORS** en production.
-- [ ] Externaliser les secrets (User Secrets / variables d'environnement / coffre-fort).
-- [ ] Désactiver `EnableSensitiveDataLogging` hors développement.
-- [ ] Ajouter une **couche service** entre contrôleurs et `DbContext` (allègement de `InventaireController`).
-- [ ] Tests unitaires et d'intégration + **CI/CD**.
-
----
-
-## 👤 Auteur
-
-**Walid Borgi**
-Développeur Full-Stack / .NET & Angular
-
-- 🐙 GitHub : [@votre-pseudo](https://github.com/votre-pseudo)
-- 💼 LinkedIn : [Votre profil](https://linkedin.com/in/votre-profil)
-- 📧 Email : borgi.walid@ms-ma.ma
-
----
 
 <div align="center">
 
